@@ -49,7 +49,7 @@ function showProjects(projects) {
         // Generate HTML for each project card
         projectsHTML += `
         <div class="grid-item ${project.category}">
-            <div class="box tilt" style="width: 380px; margin: 1rem">
+            <div class="box tilt">
                 <img draggable="false" src="./assets/images/projects/${project.image}.jpg" alt="project image" />
                 <div class="content">
                     <div class="tag">
